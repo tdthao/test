@@ -1,0 +1,58 @@
+    
+.container_layout5 {
+    @include margin_195;
+    @include flex_column;
+    padding: 160px 0px;
+    gap: $gap_80;
+    
+
+    .layout5_container_top {
+        h6 {
+            @include styleText_14;
+            color: $color-blue;
+            text-align: center;
+        }
+
+        h3 {
+            @include styleText_40;
+            color: $color-black;
+            text-align: center;
+        }
+
+        p {
+            @include styleText_14;
+            color: $color-backgroud;
+            text-align: center;
+        }
+    }
+
+    .layout5_container_bottom {
+        @include flex_row;
+       
+        justify-content: center;
+        
+       
+
+        input {
+            width: 68px;
+    padding: 15px 591px 15px 20px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;
+        }
+
+        button {
+            color: #fef8f8;
+            width: 117px;
+            height: 58px;
+            padding: 15px 22.5px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 0px 5px 5px 0px;
+            border: 1px solid #E6E6E6;
+            background: var(--primary-color, #23A6F0);
+        }
+    }
+}

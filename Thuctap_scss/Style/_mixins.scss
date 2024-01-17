@@ -1,0 +1,120 @@
+
+  
+  @mixin body_style{
+    font-family: Montserrat;
+    margin: 0px;
+  }
+  @mixin styleText_12{
+    color: var(--light-text-color, #FFF);
+  text-align: center;
+  /* link */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+  }
+  @mixin styleText_14{
+    color: var(--light-text-color, #FFF);
+  // text-align: center;
+  /* link */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+  }
+  @mixin styleText_20{
+    color: var(--light-text-color, #FFF);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  }
+  @mixin styleText_40{
+    color: var(--text-color, #252B42);
+  
+  /* h2 */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: 0.2px;
+  }
+  @mixin styleText_58{
+    color: var(--light-text-color, #FFF);
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 137.931% */
+  letter-spacing: 0.2px;
+  }
+  @mixin styleText_16{
+    color: var(--light-text-color, #FFF);
+  
+  /* h5 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+  }
+
+
+  @mixin styleText_24{
+    color: var(--light-text-color, #FFF);
+
+/* h3 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+  }
+  
+  //  phần tái sử dụng code
+  
+  @mixin margin_195{
+    margin-left: 195px;
+    margin-right: 195px;
+  }
+  @mixin flex_row{
+    display: flex;
+    flex-direction: row;
+  }
+  @mixin flex_column{
+    display: flex;
+    flex-direction: column;
+  }
+  @mixin line-clamp($max-line) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: $max-line;
+    /* number of lines to show */
+    line-clamp: $max-line;
+    -webkit-box-orient: vertical;}
+    
+
+    @mixin max-lines{
+      display: block;/* or inline-block */
+      text-overflow: ellipsis;
+      word-wrap: break-word;
+      overflow: hidden;
+      max-height: 3.6em;
+      line-height: 1.8em;
+    }
+
+
+
+

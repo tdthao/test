@@ -1,0 +1,32 @@
+.container_layout2{
+    display: flex;
+    @include margin_195;
+    padding: 160px 0px;
+    gap: 240px; 
+    @include flex_row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container_right{
+    h3{
+     @include styleText_40;
+     text-align: start;
+    }
+    .layou2_text2{
+        @include styleText_14;
+        color:$color-backgroud;
+        text-align: start;
+
+    }
+    .layou2_text3{
+        @include styleText_14;
+        color:$color-blue;
+        text-align: start;
+        @include flex_row;
+        align-items: center;
+        gap:$gap_10;
+    }
+
+}

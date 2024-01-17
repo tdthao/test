@@ -1,0 +1,164 @@
+.layout3{
+    padding: 160px 0px;
+}
+.container_layout3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container1_layout3{
+    display: flex;
+    justify-content: center;
+}
+.layout3_container_bottom_item{
+    display: flex;
+    max-width: 363px;
+    flex-direction: column;
+    justify-content: center;
+}
+.layout3_icon{
+    height: 16px;
+    align-items: center;
+}
+.paddinng_layout3_item{
+    padding: 25px 25px 35px 25px;
+    @include flex_column;
+    gap: $gap_10;
+
+}
+.layout3_icon_3 {
+    display: flex;
+    align-items: center;
+    width: 101px;
+    height: 38px;
+
+    padding: 0px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 37px;
+    border: 1px solid var(--primary-color, #23A6F0);
+    p{
+        @include styleText_14;
+        text-align: start;
+        color: $color-blue;
+    }
+}
+.height_icon_img1{
+    position: relative;
+    position: relative;
+    top: -44px;
+    left: 241px;
+}
+.height_icon_img2{
+    position: relative;
+    left: 46px;
+    top: -47px;    
+}
+.height_icon_img3{
+    position: relative;
+    top: -46px;
+    right: -77px;
+}
+.layout3_img_sale{
+    position: relative;
+    top: 65px;
+    left: 20px;
+}
+.layout3_container_bottom_item{
+    display: flex;
+padding: 25px 25px 35px 25px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+.layout3_img{
+ width: 348px;
+height: 300px;
+flex-shrink: 0;
+}
+.flex_row_gap_10{
+    @include flex_row;
+    gap: $gap_10;
+}
+.flex_colum_gap_10{
+    @include flex_column;
+    gap: $gap_10;
+}
+.layout3_icon_tick {
+    @include flex_row;
+    gap: 5px;
+    color: $color-color;
+
+    width: 48px;
+    height: 24px;
+    border-radius: 30px;
+    background-color: $color-black ;
+    align-items: center;
+    justify-content: center;
+}
+.layout3_item{
+    @include flex_row;
+    justify-content: space-between;
+    align-items: center;
+}
+.layout3_icon{
+    @include flex_row;
+    gap: $gap_10;
+    p{
+        color: $color-backgroud;
+    }
+  
+}
+.layout3_icon_text2{
+    @include flex_row; 
+    gap: $gap_10;
+    .text1{
+        color: $color-backgroud;
+    }
+    .text2{
+        color: var(--secondary-color-1, #40BB15);
+
+    }
+}
+.layout3_icon_2{
+    @include flex_row;
+    @include styleText_12;
+    color:  $color-backgroud;
+    justify-content: space-between;
+    div{
+        @include flex_row;
+        align-items: center;
+        gap: $gap_10;
+        
+    }
+}
+.layout3_bottom_text1{
+    @include styleText_14;
+    color: $color-blue;
+}
+.layout3_bottom_text2{
+    @include styleText_14;
+    color: $color-black;
+}
+.layout3_bottom_text3{
+    @include styleText_14;
+    color: $color-backgroud;
+}
+.container_layout3_top{
+    h6{
+        @include styleText_14;
+        color:$color-blue;
+    }
+    h1{
+        @include styleText_40;
+        color: $color-black;
+        text-align: start;
+    }
+    p{
+        @include styleText_14;
+        color: $color-backgroud;
+    }
+}
